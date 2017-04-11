@@ -8,16 +8,10 @@
 
 <HR WIDTH="100%">
 
-<p>We provide image files in FITS format for each field at each frequency at both native and re-imaged resolutions with primary beam correction applied (12 FITS images in total). The <b>*_catalogue.FITS</b> files (first column) were used to create the source catalogue presented in this work, each with an image cell size of 1.5 arcsec and CLEAN restoring beam as listed in the paper (<a href="http://adsabs.harvard.edu/abs/2016MNRAS.462.2904A">ads</a>). The <b>*_native.FITS</b> files (second column) are the original image files with the native resolution used to detect the target sources, the results of which were presented in Ainsworth et al. (2016a, <a href="http://adsabs.harvard.edu/abs/2016MNRAS.459.1248A">ads</a>). </p>
+<h3>FITS Images</h3>
+<p>We provide image files in FITS format for each field at each frequency at both native and re-imaged resolutions with primary beam correction applied (12 FITS images in total). The <b>*_catalogue.FITS</b> files below were used to create the source catalogue presented in this work, each with an image cell size of 1.5 arcsec and CLEAN restoring beam as listed in the paper (<a href="http://adsabs.harvard.edu/abs/2016MNRAS.462.2904A">ads</a>). The <b>*_native.FITS</b> files below are the original image files with the native (ROBUST 0) resolution used to detect the target sources, the results of which were presented in Ainsworth et al. (2016a, <a href="http://adsabs.harvard.edu/abs/2016MNRAS.459.1248A">ads</a>). </p>
 
-<p>The final source catalogue is made available in a machine-readable format as part of the data release (<b>GMRT-TAU.dat</b>). In addition, a table providing all the parameter outputs from PyBDSM is provided (<b>GMRT-TAU_PyBDSM.csv</b>), see the <a href="http://www.astron.nl/citt/pybdsm/">online documentation</a> for a full description. 
-
-A series of python scripts were developed to create the final catalogue and diagnostic plots from the PyBDSM catalogue files for each individual field and frequency. These files are available and can be used to re-constitute the catalogue at any time. <b>make_catalog.py</b> takes the PyBDSM output for a single field at both frequencies and generates a final catalogue,  complete with spectral indices, source matching between frequencies, and comparisons with other surveys. It outputs these results in a LaTeX format that can then be combined with results from additional fields to make the final GMRT-TAU catalogue. Additional files are also created which can read by <b>make_plots.py</b> to generate the diagnostic plots presented in this paper. Finally, a <b>*.csv</b> file is created which contains all of the information in the latex file, in addition to default PyBDSM columns and additional columns used for internal calculation by <b>make_catalog.py</b>, but which may be of use in further study.
-
-<p> The image files, source catalogues and scripts are available through links in the lists below. If you use the data from this webpage, please cite the paper (<a href="http://adsabs.harvard.edu/abs/2016MNRAS.462.2904A">ads</a>).</p>
-
-
-<h3>Catalogue resolution FITS Images (data files too large for GitHub)</h3>
+<h4>Catalogue resolution FITS Images (data files too large for GitHub)</h4>
       <li><a href="https://homepages.dias.ie/rainsworth/GMRT-TAU_catalogue/L1551_323MHz_catalogue.FITS">L1551_323MHz_catalogue.FITS</a> (144.2 MB)
       <li><a href="https://homepages.dias.ie/rainsworth/GMRT-TAU_catalogue/L1551_608MHz_catalogue.FITS">L1551_608MHz_catalogue.FITS</a> (144.1 MB)
       <li><a href="https://homepages.dias.ie/rainsworth/GMRT-TAU_catalogue/TTau_323MHz_catalogue.FITS">TTau_323MHz_catalogue.FITS</a> (144.1 MB)
@@ -25,7 +19,7 @@ A series of python scripts were developed to create the final catalogue and diag
       <li><a href="https://homepages.dias.ie/rainsworth/GMRT-TAU_catalogue/DGTau_323MHz_catalogue.FITS">DGTau_323MHz_catalogue.FITS</a> (144.2 MB)
       <li><a href="https://homepages.dias.ie/rainsworth/GMRT-TAU_catalogue/DGTau_608MHz_catalogue.FITS">DGTau_608MHz_catalogue.FITS</a> (144.1 MB)
 
-<h3>Native resolution FITS Images (data files too large for GitHub)</h3>
+<h4>Native resolution FITS Images (data files too large for GitHub)</h4>
       <li><a href="https://homepages.dias.ie/rainsworth/GMRT-TAU_catalogue/L1551_323MHz_native.FITS">L1551_323MHz_native.FITS</a> (64.2 MB)
       <li><a href="https://homepages.dias.ie/rainsworth/GMRT-TAU_catalogue/L1551_608MHz_native.FITS">L1551_608MHz_native.FITS</a> (100.1 MB)
       <li><a href="https://homepages.dias.ie/rainsworth/GMRT-TAU_catalogue/TTau_323MHz_native.FITS">TTau_323MHz_native.FITS</a> (64.1 MB)
@@ -33,15 +27,29 @@ A series of python scripts were developed to create the final catalogue and diag
       <li><a href="https://homepages.dias.ie/rainsworth/GMRT-TAU_catalogue/DGTau_323MHz_native.FITS">DGTau_323MHz_native.FITS</a> (64.2 MB)
       <li><a href="https://homepages.dias.ie/rainsworth/GMRT-TAU_catalogue/DGTau_608MHz_native.FITS">DGTau_608MHz_native.FITS</a> (100.1 MB)
 
+
 <h3>CSV source catalogue and PyBDSM output catalogue</h3>
+<p>The final source catalogue is made available in a machine-readable format as part of the data release (<b>GMRT-TAU.dat</b>). In addition, a table providing all the parameter outputs from PyBDSM is provided (<b>GMRT-TAU_PyBDSM.csv</b>), see the <a href="http://www.astron.nl/citt/pybdsm/">online documentation</a> for a full description. </p>
       <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/GMRT-TAU.pdf">GMRT-TAU.pdf</a>
       <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/GMRT-TAU.dat">GMRT-TAU.dat</a>
       <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/ReadMe">ReadMe</a>
       <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/GMRT-TAU_PyBDSM.csv">GMRT-TAU_PyBDSM.csv</a>
 
-<h3>Scripts used to generate catalogue and diagnostic plots (see also Colm Coughlan's <a href="https://github.com/colmcoughlan/astro-scripts/tree/master/catalog">astro-scripts/catalog</a> repository)</h3>
+
+<h3>Scripts used to generate catalogue and diagnostic plots</h3>
+<p>A series of python scripts were developed to create the final catalogue and diagnostic plots from the PyBDSM catalogue files for each individual field and frequency. These files are available and can be used to re-constitute the catalogue at any time. <b>make_catalog.py</b> takes the PyBDSM output for a single field at both frequencies and generates a final catalogue,  complete with spectral indices, source matching between frequencies, and comparisons with other surveys. It outputs these results in a LaTeX format that can then be combined with results from additional fields to make the final GMRT-TAU catalogue. Additional files are also created which can read by <b>make_plots.py</b> to generate the diagnostic plots presented in this paper. Finally, a <b>*.csv</b> file is created which contains all of the information in the latex file, in addition to default PyBDSM columns and additional columns used for internal calculation by <b>make_catalog.py</b>, but which may be of use in further study.</p>
       <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/blob/master/make_catalogue.py">make_catalogue.py</a>
       <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/blob/master/make_plots.py">make_plots.py</a>
+      <li>see also Colm Coughlan's <a href="https://github.com/colmcoughlan/astro-scripts/tree/master/catalog">astro-scripts/catalog</a> repository
+
+<p>If you use the data from this webpage, please cite the paper (<a href="http://adsabs.harvard.edu/abs/2016MNRAS.462.2904A">ads</a>).</p>
+
+
+
+
+
+
+
 
 
 
