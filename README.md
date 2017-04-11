@@ -30,10 +30,10 @@
 
 <h3>CSV source catalogue and PyBDSM output catalogue</h3>
 <p>The final source catalogue is made available in a machine-readable format as part of the data release (<b>GMRT-TAU.dat</b>). In addition, a table providing all the parameter outputs from PyBDSM is provided (<b>GMRT-TAU_PyBDSM.csv</b>), see the <a href="http://www.astron.nl/citt/pybdsm/">online documentation</a> for a full description. </p>
-      <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/GMRT-TAU.pdf">GMRT-TAU.pdf</a>
-      <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/GMRT-TAU.dat">GMRT-TAU.dat</a>
-      <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/ReadMe">ReadMe</a>
-      <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/GMRT-TAU_PyBDSM.csv">GMRT-TAU_PyBDSM.csv</a>
+      <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/GMRT-TAU.pdf">GMRT-TAU.pdf</a> - GMRT-TAU sourcelist of 2062 sources in PDF format
+      <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/GMRT-TAU.dat">GMRT-TAU.dat</a> - GMRT-TAU sourcelist of 2062 sources in CSV format
+      <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/ReadMe">ReadMe</a> - Description of GMRT-TAU.dat
+      <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/GMRT-TAU_PyBDSM.csv">GMRT-TAU_PyBDSM.csv</a> - PyBDSM parameter output for each source detection (1815 detections at 323 MHz and 687 detections at 608 MHz) plus header line
 
 
 <h3>Scripts used to generate catalogue and diagnostic plots</h3>
