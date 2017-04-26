@@ -1,6 +1,6 @@
 # A GMRT survey of regions towards the Taurus Molecular Cloud at 323 and 608 MHz
 
-<p>This survey is the first in a series of surveys of star forming regions, taken at 325 and 610 MHz with the Giant Metrewave Radio Telescope (<a href="http://www.gmrt.ncra.tifr.res.in/">GMRT</a>). Full details of the observations, data reduction, images and source catalogue can be found in <i>Ainsworth R. E., Coughlan C. P., Green D. A., Scaife A. M. M., Ray T. P., 2016, MNRAS, 462, 2904</i> (<a href="http://adsabs.harvard.edu/abs/2016MNRAS.462.2904A">ads</a>, <a href="https://github.com/rainsworth/GMRT-TAU_catalogue/blob/master/MNRAS-2016-Ainsworth-2904-17.pdf">pdf</a>). </p>
+<p>This survey is the first in a series of surveys of star forming regions, taken at 325 and 610 MHz with the Giant Metrewave Radio Telescope (<a href="http://www.gmrt.ncra.tifr.res.in/">GMRT</a>). Full details of the observations, data reduction, images and source catalogue can be found in <i>Ainsworth R. E., Coughlan C. P., Green D. A., Scaife A. M. M., Ray T. P., 2016, MNRAS, 462, 2904</i> (<a href="http://adsabs.harvard.edu/abs/2016MNRAS.462.2904A">ads</a>, <a href="https://arxiv.org/abs/1607.07245">arXiv</a>). </p>
 
 <h2>Summary</h2>
 
@@ -11,7 +11,7 @@
 <HR WIDTH="100%">
 
 <h3>FITS Images</h3>
-<p>We provide image files in FITS format for each field at each frequency at both native and re-imaged resolutions with primary beam correction applied (12 FITS images in total). The <b>*_catalogue.FITS</b> files below were used to create the source catalogue presented in this work, each with an image cell size of 1.5 arcsec and CLEAN restoring beam as listed in the paper (<a href="http://adsabs.harvard.edu/abs/2016MNRAS.462.2904A">ads</a>, <a href="https://github.com/rainsworth/GMRT-TAU_catalogue/blob/master/MNRAS-2016-Ainsworth-2904-17.pdf">pdf</a>). The <b>*_native.FITS</b> files below are the original image files with the native (ROBUST 0) resolution used to detect the target sources, the results of which were presented in Ainsworth et al. (2016a, <a href="http://adsabs.harvard.edu/abs/2016MNRAS.459.1248A">ads</a>). </p>
+<p>We provide image files in FITS format for each field at each frequency at both native and re-imaged resolutions with primary beam correction applied (12 FITS images in total). The <b>*_catalogue.FITS</b> files below were used to create the source catalogue presented in this work, each with an image cell size of 1.5 arcsec and CLEAN restoring beam as listed in the paper (<a href="http://adsabs.harvard.edu/abs/2016MNRAS.462.2904A">ads</a>, <a href="https://arxiv.org/abs/1607.07245">arXiv</a>). The <b>*_native.FITS</b> files below are the original image files with the native (ROBUST 0) resolution used to detect the target sources, the results of which were presented in Ainsworth et al. (2016a; <a href="http://adsabs.harvard.edu/abs/2016MNRAS.459.1248A">ads</a>, <a href="https://arxiv.org/abs/1603.06836">arXiv</a>). </p>
 
 <h4>Catalogue resolution FITS Images (data files too large for GitHub)</h4>
       <li><a href="https://homepages.dias.ie/rainsworth/GMRT-TAU_catalogue/L1551_323MHz_catalogue.FITS">L1551_323MHz_catalogue.FITS</a> (144.2 MB)
@@ -44,7 +44,7 @@
       <li><a href="https://github.com/rainsworth/GMRT-TAU_catalogue/blob/master/make_plots.py">make_plots.py</a>
       <li>see also Colm Coughlan's <a href="https://github.com/colmcoughlan/astro-scripts/tree/master/catalog">astro-scripts/catalog</a> repository
 
-<p>If you use the data from this webpage, please cite the paper (<a href="http://adsabs.harvard.edu/abs/2016MNRAS.462.2904A">ads</a>, <a href="https://github.com/rainsworth/GMRT-TAU_catalogue/blob/master/MNRAS-2016-Ainsworth-2904-17.pdf">pdf</a>).</p>
+<p>If you use the data from this webpage, please cite the paper (<a href="http://adsabs.harvard.edu/abs/2016MNRAS.462.2904A">ads</a>, <a href="https://arxiv.org/abs/1607.07245">arXiv</a>).</p>
 
 
 
