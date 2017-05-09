@@ -1,6 +1,6 @@
 # A GMRT survey of regions towards the Taurus Molecular Cloud at 323 and 608 MHz
 
-<p>This survey is the first in a series of surveys of star forming regions, taken at 325 and 610 MHz with the Giant Metrewave Radio Telescope (<a href="http://www.gmrt.ncra.tifr.res.in/">GMRT</a>). Full details of the observations, data reduction, images and source catalogue can be found in <i>Ainsworth R. E., Coughlan C. P., Green D. A., Scaife A. M. M., Ray T. P., 2016, MNRAS, 462, 2904</i> (<a href="http://adsabs.harvard.edu/abs/2016MNRAS.462.2904A">ads</a>, <a href="https://arxiv.org/abs/1607.07245">arXiv</a>). </p>
+<p>This survey is the first in a series of surveys of star forming regions, taken at 325 and 610 MHz with the Giant Metrewave Radio Telescope (<a href="http://www.gmrt.ncra.tifr.res.in/">GMRT</a>). Full details of the observations, data reduction, images and source catalogue can be found in <i>Ainsworth R. E., Coughlan C. P., Green D. A., Scaife A. M. M., Ray T. P., 2016, MNRAS, 462, 2904</i> (<a href="http://adsabs.harvard.edu/abs/2016MNRAS.462.2904A">ads</a>, <a href="https://arxiv.org/abs/1607.07245">arXiv</a>). The original/main project homepage is <a href="https://homepages.dias.ie/rainsworth/GMRT-TAU_catalogue.html">here</a>.</p>
 
 <h2>Summary</h2>
 
